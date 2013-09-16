@@ -1,1552 +1,534 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>archiveVersion</key>
-	<string>1</string>
-	<key>classes</key>
-	<dict/>
-	<key>objectVersion</key>
-	<string>46</string>
-	<key>objects</key>
-	<dict>
-		<key>010F785BB0604215A10C953E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>FC0505238EF74D7CB0689E07</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>0196CEA92990470CBA81AE27</key>
-		<dict>
-			<key>fileRef</key>
-			<string>81BD64CE22D54B3B9D6543EE</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-w -Xanalyzer -analyzer-disable-checker</string>
-			</dict>
-		</dict>
-		<key>04D20257C4F9441AA72E2B8E</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>D2642BC294BA4CDEAA1700E7</string>
-				<string>320FAB7618F243968B3AC11B</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>0554E78C50064A98922B9D7C</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>RHAddressBookGeoResult.h</string>
-			<key>path</key>
-			<string>RHAddressBook/RHAddressBookGeoResult.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>0816FF440DFF4EBC9B3D38F9</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>8F86211FB0094669ABE3ACF0</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>ARCHS</key>
-				<string>$(ARCHS_STANDARD_32_BIT)</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_VERSION</key>
-				<string>com.apple.compilers.llvm.clang.1_0</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.0</string>
-				<key>OTHER_CFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_CPLUSPLUSFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>0F2C572C13A24C1EB5850FEE</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>30A97925F820475783E08542</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>110666124C354C7AA47AD16F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-resources.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>180795ACE061440EA00F8121</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>RHAddressBook.h</string>
-			<key>path</key>
-			<string>RHAddressBook/RHAddressBook.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1AA0094EB3934361ACD2CB74</key>
-		<dict>
-			<key>fileRef</key>
-			<string>30A97925F820475783E08542</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>1AF3EFB8E53244AC884DE649</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>path</key>
-			<string>Pods-acknowledgements.markdown</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1BE3B0E963E04FD7B3A7BEF6</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-RHAddressBook-prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1D2142F7663F4888B31016DB</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>3792EF5CDA9D439B87A01594</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1EC64BA3610A44B887AC40B4</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>RHPerson.h</string>
-			<key>path</key>
-			<string>RHAddressBook/RHPerson.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1F16F0EB1A5143C38ED5A0DD</key>
-		<dict>
-			<key>fileRef</key>
-			<string>50D51BD8D9C84A7BA3FF19CC</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-w -Xanalyzer -analyzer-disable-checker</string>
-			</dict>
-		</dict>
-		<key>20439C802862499AB0114B60</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>6A9ECC523D814341A08BDCC4</string>
-				<string>DEE4B30B2D024D2CB104E538</string>
-				<string>F08C83BD8B8D4B3084AAAACC</string>
-				<string>F55E90142D7A44AA9AD8663F</string>
-				<string>23F4AA68FA804A70A65DB7B3</string>
-				<string>F147465C453149E28708EBAF</string>
-				<string>407AEFD2D017437E8DF2F7BC</string>
-				<string>D22CADB3BE41436399051852</string>
-				<string>3C66F89CD2364921B1D1AD49</string>
-				<string>E3E3B22371014350AEB6FA9B</string>
-				<string>765686E1A038448AB2959E45</string>
-				<string>A45207938B3142D1960C8D5C</string>
-				<string>D7302475FC2F40AF9DB0EA05</string>
-				<string>4728EA3FDC21445D8E54A444</string>
-				<string>394F788094B1466EA9361C13</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>23F4AA68FA804A70A65DB7B3</key>
-		<dict>
-			<key>fileRef</key>
-			<string>0554E78C50064A98922B9D7C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>24CDBC2E11B3434CA71167B7</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>5949F3D3DC4D4617852F49E0</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Targets Support Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>274CD5844F904014B9AA0ADD</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>RHAddressBook_Private.h</string>
-			<key>path</key>
-			<string>RHAddressBook/RHAddressBook_Private.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2868D1646875484A9B15AD5F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>RHMultiValue.h</string>
-			<key>path</key>
-			<string>RHAddressBook/RHMultiValue.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2C6B1726D7ED44BE9F3EC3F4</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>AddressBook.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/AddressBook.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>2EA1DE8D89C4472BB3868722</key>
-		<dict>
-			<key>fileRef</key>
-			<string>C096FECC65DA4A30896A7638</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-w -Xanalyzer -analyzer-disable-checker</string>
-			</dict>
-		</dict>
-		<key>30A97925F820475783E08542</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods-RHAddressBook.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>320FAB7618F243968B3AC11B</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.0</string>
-				<key>STRIP_INSTALLED_PRODUCT</key>
-				<string>NO</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>33A11876D8434092959F584F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>RHSource.m</string>
-			<key>path</key>
-			<string>RHAddressBook/RHSource.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>358001AF12744B99AC222983</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E1B8ACA0AFE14106B894CCA6</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>3633A47350D54457BA9A00D2</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>RHPersonLabels.h</string>
-			<key>path</key>
-			<string>RHAddressBook/RHPersonLabels.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3792EF5CDA9D439B87A01594</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>0F2C572C13A24C1EB5850FEE</string>
-				<string>A4C92275DA5E4E3D8C56F033</string>
-				<string>67703139A5484F19A59F16C8</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>RHAddressBook</string>
-			<key>path</key>
-			<string>RHAddressBook</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>394F788094B1466EA9361C13</key>
-		<dict>
-			<key>fileRef</key>
-			<string>C0BD3D6745E7438BA84BAFE7</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>397ACDF4B6AF43A1BD7C8412</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9A57A019B3214F70B70D5AAA</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-w -Xanalyzer -analyzer-disable-checker</string>
-			</dict>
-		</dict>
-		<key>3C66F89CD2364921B1D1AD49</key>
-		<dict>
-			<key>fileRef</key>
-			<string>73D13D98841349E68CE4D762</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>3CF0C8A48C95471397E538BC</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>NSThread+RHBlockAdditions.m</string>
-			<key>path</key>
-			<string>RHAddressBook/NSThread+RHBlockAdditions.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3E8E4CE1E9D74DC59EC07191</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>RHAddressBookThreadMain.h</string>
-			<key>path</key>
-			<string>RHAddressBook/RHAddressBookThreadMain.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>407AEFD2D017437E8DF2F7BC</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3E8E4CE1E9D74DC59EC07191</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>430A57E3B0F04E2DAD308501</key>
-		<dict>
-			<key>fileRef</key>
-			<string>789FA46385DB42439D57070B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>444DC01906444951945C358B</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>0816FF440DFF4EBC9B3D38F9</string>
-				<string>906AB725FE8A4557BFA96A63</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>44662DF11A4748E1840524D4</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>2C6B1726D7ED44BE9F3EC3F4</string>
-				<string>932199D69DCC48F69BE828F8</string>
-				<string>789FA46385DB42439D57070B</string>
-				<string>FC0505238EF74D7CB0689E07</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>45ED57AEFC3B499AA907B08E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>RHRecord_Private.h</string>
-			<key>path</key>
-			<string>RHAddressBook/RHRecord_Private.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>461BD3DDA24743B4AB20660A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>FC0505238EF74D7CB0689E07</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>4728EA3FDC21445D8E54A444</key>
-		<dict>
-			<key>fileRef</key>
-			<string>45ED57AEFC3B499AA907B08E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>49EECE13BBD045019C7C8C10</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>RHRecord.m</string>
-			<key>path</key>
-			<string>RHAddressBook/RHRecord.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4D2EC6D5C17D449D821CA914</key>
-		<dict>
-			<key>fileRef</key>
-			<string>C9498712E06147D188A48728</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-w -Xanalyzer -analyzer-disable-checker</string>
-			</dict>
-		</dict>
-		<key>50D51BD8D9C84A7BA3FF19CC</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>RHAddressBookSharedServices.m</string>
-			<key>path</key>
-			<string>RHAddressBook/RHAddressBookSharedServices.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5426D1DD72564E5D82846F6B</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>name</key>
-			<string>Podfile</string>
-			<key>path</key>
-			<string>../Podfile</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-			<key>xcLanguageSpecificationIdentifier</key>
-			<string>xcode.lang.ruby</string>
-		</dict>
-		<key>5578BCA1450B446DA8829FBA</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>RHARCSupport.h</string>
-			<key>path</key>
-			<string>RHAddressBook/RHARCSupport.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>56CB3D4FD09C47A688AA2488</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>LastUpgradeCheck</key>
-				<string>0450</string>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>04D20257C4F9441AA72E2B8E</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-			</array>
-			<key>mainGroup</key>
-			<string>9D7C0EE3C67847BE82E2FC3C</string>
-			<key>productRefGroup</key>
-			<string>B2E8C12B90544B03A7F8D937</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectReferences</key>
-			<array/>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>DAE6C1138A7C4E90B1E3AFD8</string>
-				<string>8FFBF46D4F204D2B81B8CAF8</string>
-			</array>
-		</dict>
-		<key>5949F3D3DC4D4617852F49E0</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>1AF3EFB8E53244AC884DE649</string>
-				<string>96C13A13891140E89D5B9F37</string>
-				<string>59B2781DB9FB42CA99D6EDA0</string>
-				<string>D133F4CAC11E49888D4434F7</string>
-				<string>110666124C354C7AA47AD16F</string>
-				<string>8F86211FB0094669ABE3ACF0</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>59B2781DB9FB42CA99D6EDA0</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5B0FA07077204F1AB1F90E18</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>target</key>
-			<string>DAE6C1138A7C4E90B1E3AFD8</string>
-			<key>targetProxy</key>
-			<string>C725B11BA4DA457A8F68CEF6</string>
-		</dict>
-		<key>5BB36FB154384C3086FDBC1C</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>RHAddressBookSharedServices.h</string>
-			<key>path</key>
-			<string>RHAddressBook/RHAddressBookSharedServices.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>645A32D7FB414C1ABEDA9559</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>BB6AA4714D66462D8DFD713A</string>
-				<string>F53CEF057814403DBC4B0447</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>6498BFEA769845F39B8282A6</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-RHAddressBook.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>66DC69D7FA7847D1B063A515</key>
-		<dict>
-			<key>fileRef</key>
-			<string>7CA26178CB0C4DBFB9887231</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-w -Xanalyzer -analyzer-disable-checker</string>
-			</dict>
-		</dict>
-		<key>67703139A5484F19A59F16C8</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>E53E1C1960A84089B8585BAA</string>
-				<string>E1B8ACA0AFE14106B894CCA6</string>
-				<string>1BE3B0E963E04FD7B3A7BEF6</string>
-				<string>6498BFEA769845F39B8282A6</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Support Files</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>6A9ECC523D814341A08BDCC4</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8F22D6FB10BA48BB92A66D0A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>71E51603B00543FE9D649869</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>RHRecord.h</string>
-			<key>path</key>
-			<string>RHAddressBook/RHRecord.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>73D13D98841349E68CE4D762</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>RHGroup.h</string>
-			<key>path</key>
-			<string>RHAddressBook/RHGroup.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>765686E1A038448AB2959E45</key>
-		<dict>
-			<key>fileRef</key>
-			<string>1EC64BA3610A44B887AC40B4</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>789FA46385DB42439D57070B</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>CoreLocation.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreLocation.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>7CA26178CB0C4DBFB9887231</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>RHAddressBook.m</string>
-			<key>path</key>
-			<string>RHAddressBook/RHAddressBook.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7F6CC160197A469EAC9BBCE9</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3CF0C8A48C95471397E538BC</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-w -Xanalyzer -analyzer-disable-checker</string>
-			</dict>
-		</dict>
-		<key>81BD64CE22D54B3B9D6543EE</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>RHMultiValue.m</string>
-			<key>path</key>
-			<string>RHAddressBook/RHMultiValue.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8432D096F8744D33886A7038</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>7F6CC160197A469EAC9BBCE9</string>
-				<string>66DC69D7FA7847D1B063A515</string>
-				<string>397ACDF4B6AF43A1BD7C8412</string>
-				<string>1F16F0EB1A5143C38ED5A0DD</string>
-				<string>2EA1DE8D89C4472BB3868722</string>
-				<string>F549422084AA450CA4425429</string>
-				<string>0196CEA92990470CBA81AE27</string>
-				<string>4D2EC6D5C17D449D821CA914</string>
-				<string>EF2FE02AC6324D7B9A831148</string>
-				<string>8ABB5C0AAAC946A0971D1A3E</string>
-				<string>358001AF12744B99AC222983</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>8ABB5C0AAAC946A0971D1A3E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>33A11876D8434092959F584F</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-w -Xanalyzer -analyzer-disable-checker</string>
-			</dict>
-		</dict>
-		<key>8F22D6FB10BA48BB92A66D0A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>AddressBook.h</string>
-			<key>path</key>
-			<string>RHAddressBook/AddressBook.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8F86211FB0094669ABE3ACF0</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8FFBF46D4F204D2B81B8CAF8</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>444DC01906444951945C358B</string>
-			<key>buildPhases</key>
-			<array>
-				<string>F5317361917E4B8CBE97B38B</string>
-				<string>BE30978402B3464CAEB67124</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>5B0FA07077204F1AB1F90E18</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods</string>
-			<key>productName</key>
-			<string>Pods</string>
-			<key>productReference</key>
-			<string>9F9C1A000F704D2182585191</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>906AB725FE8A4557BFA96A63</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>8F86211FB0094669ABE3ACF0</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>ARCHS</key>
-				<string>$(ARCHS_STANDARD_32_BIT)</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>GCC_VERSION</key>
-				<string>com.apple.compilers.llvm.clang.1_0</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.0</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>932199D69DCC48F69BE828F8</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>AddressBookUI.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/AddressBookUI.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>95271A4381F1420E82A6C1DB</key>
-		<dict>
-			<key>fileRef</key>
-			<string>932199D69DCC48F69BE828F8</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>96C13A13891140E89D5B9F37</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Pods-acknowledgements.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9A57A019B3214F70B70D5AAA</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>RHAddressBookGeoResult.m</string>
-			<key>path</key>
-			<string>RHAddressBook/RHAddressBookGeoResult.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9D7C0EE3C67847BE82E2FC3C</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>44662DF11A4748E1840524D4</string>
-				<string>1D2142F7663F4888B31016DB</string>
-				<string>B2E8C12B90544B03A7F8D937</string>
-				<string>24CDBC2E11B3434CA71167B7</string>
-				<string>5426D1DD72564E5D82846F6B</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9F9C1A000F704D2182585191</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>A45207938B3142D1960C8D5C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3633A47350D54457BA9A00D2</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>A4C92275DA5E4E3D8C56F033</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>8F22D6FB10BA48BB92A66D0A</string>
-				<string>CBE699B66C6D48C2A3CFD689</string>
-				<string>3CF0C8A48C95471397E538BC</string>
-				<string>5578BCA1450B446DA8829FBA</string>
-				<string>180795ACE061440EA00F8121</string>
-				<string>7CA26178CB0C4DBFB9887231</string>
-				<string>0554E78C50064A98922B9D7C</string>
-				<string>9A57A019B3214F70B70D5AAA</string>
-				<string>5BB36FB154384C3086FDBC1C</string>
-				<string>50D51BD8D9C84A7BA3FF19CC</string>
-				<string>3E8E4CE1E9D74DC59EC07191</string>
-				<string>C096FECC65DA4A30896A7638</string>
-				<string>274CD5844F904014B9AA0ADD</string>
-				<string>73D13D98841349E68CE4D762</string>
-				<string>B4FBF4900697482DBC5D7541</string>
-				<string>2868D1646875484A9B15AD5F</string>
-				<string>81BD64CE22D54B3B9D6543EE</string>
-				<string>1EC64BA3610A44B887AC40B4</string>
-				<string>C9498712E06147D188A48728</string>
-				<string>3633A47350D54457BA9A00D2</string>
-				<string>71E51603B00543FE9D649869</string>
-				<string>49EECE13BBD045019C7C8C10</string>
-				<string>45ED57AEFC3B499AA907B08E</string>
-				<string>C0BD3D6745E7438BA84BAFE7</string>
-				<string>33A11876D8434092959F584F</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Source Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B2E8C12B90544B03A7F8D937</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>9F9C1A000F704D2182585191</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B4FBF4900697482DBC5D7541</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>RHGroup.m</string>
-			<key>path</key>
-			<string>RHAddressBook/RHGroup.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BB6AA4714D66462D8DFD713A</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>E53E1C1960A84089B8585BAA</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>ARCHS</key>
-				<string>$(ARCHS_STANDARD_32_BIT)</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Pods-RHAddressBook-prefix.pch</string>
-				<key>GCC_VERSION</key>
-				<string>com.apple.compilers.llvm.clang.1_0</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.0</string>
-				<key>OTHER_CFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_CPLUSPLUSFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>BE30978402B3464CAEB67124</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>461BD3DDA24743B4AB20660A</string>
-				<string>1AA0094EB3934361ACD2CB74</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>C096FECC65DA4A30896A7638</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>RHAddressBookThreadMain.m</string>
-			<key>path</key>
-			<string>RHAddressBook/RHAddressBookThreadMain.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C0BD3D6745E7438BA84BAFE7</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>RHSource.h</string>
-			<key>path</key>
-			<string>RHAddressBook/RHSource.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C60FE3599B17431FA839EEB0</key>
-		<dict>
-			<key>fileRef</key>
-			<string>59B2781DB9FB42CA99D6EDA0</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>C725B11BA4DA457A8F68CEF6</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>56CB3D4FD09C47A688AA2488</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>DAE6C1138A7C4E90B1E3AFD8</string>
-			<key>remoteInfo</key>
-			<string>Pods-RHAddressBook</string>
-		</dict>
-		<key>C9498712E06147D188A48728</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>RHPerson.m</string>
-			<key>path</key>
-			<string>RHAddressBook/RHPerson.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>CBE699B66C6D48C2A3CFD689</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>NSThread+RHBlockAdditions.h</string>
-			<key>path</key>
-			<string>RHAddressBook/NSThread+RHBlockAdditions.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D133F4CAC11E49888D4434F7</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-environment.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D22CADB3BE41436399051852</key>
-		<dict>
-			<key>fileRef</key>
-			<string>5578BCA1450B446DA8829FBA</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D2642BC294BA4CDEAA1700E7</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.0</string>
-				<key>STRIP_INSTALLED_PRODUCT</key>
-				<string>NO</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>D2DEA60643BD4DB1A488F8D9</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2C6B1726D7ED44BE9F3EC3F4</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D7302475FC2F40AF9DB0EA05</key>
-		<dict>
-			<key>fileRef</key>
-			<string>71E51603B00543FE9D649869</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DAE6C1138A7C4E90B1E3AFD8</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>645A32D7FB414C1ABEDA9559</string>
-			<key>buildPhases</key>
-			<array>
-				<string>8432D096F8744D33886A7038</string>
-				<string>FE96EA5339ED445A81ABB859</string>
-				<string>20439C802862499AB0114B60</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-RHAddressBook</string>
-			<key>productName</key>
-			<string>Pods-RHAddressBook</string>
-			<key>productReference</key>
-			<string>30A97925F820475783E08542</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>DEE4B30B2D024D2CB104E538</key>
-		<dict>
-			<key>fileRef</key>
-			<string>CBE699B66C6D48C2A3CFD689</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>E1B8ACA0AFE14106B894CCA6</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-RHAddressBook-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E3E3B22371014350AEB6FA9B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2868D1646875484A9B15AD5F</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>E53E1C1960A84089B8585BAA</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-RHAddressBook-Private.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EF2FE02AC6324D7B9A831148</key>
-		<dict>
-			<key>fileRef</key>
-			<string>49EECE13BBD045019C7C8C10</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-w -Xanalyzer -analyzer-disable-checker</string>
-			</dict>
-		</dict>
-		<key>F08C83BD8B8D4B3084AAAACC</key>
-		<dict>
-			<key>fileRef</key>
-			<string>180795ACE061440EA00F8121</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>F147465C453149E28708EBAF</key>
-		<dict>
-			<key>fileRef</key>
-			<string>5BB36FB154384C3086FDBC1C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>F5317361917E4B8CBE97B38B</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>C60FE3599B17431FA839EEB0</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>F53CEF057814403DBC4B0447</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>E53E1C1960A84089B8585BAA</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>ARCHS</key>
-				<string>$(ARCHS_STANDARD_32_BIT)</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Pods-RHAddressBook-prefix.pch</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>GCC_VERSION</key>
-				<string>com.apple.compilers.llvm.clang.1_0</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.0</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>F549422084AA450CA4425429</key>
-		<dict>
-			<key>fileRef</key>
-			<string>B4FBF4900697482DBC5D7541</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-w -Xanalyzer -analyzer-disable-checker</string>
-			</dict>
-		</dict>
-		<key>F55E90142D7A44AA9AD8663F</key>
-		<dict>
-			<key>fileRef</key>
-			<string>274CD5844F904014B9AA0ADD</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>FC0505238EF74D7CB0689E07</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>Foundation.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/Foundation.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>FE96EA5339ED445A81ABB859</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>010F785BB0604215A10C953E</string>
-				<string>D2DEA60643BD4DB1A488F8D9</string>
-				<string>430A57E3B0F04E2DAD308501</string>
-				<string>95271A4381F1420E82A6C1DB</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-	</dict>
-	<key>rootObject</key>
-	<string>56CB3D4FD09C47A688AA2488</string>
-</dict>
-</plist>
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		084FDA80D4BD46B8AD1D18B9 /* RHAddressBookGeoResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 25D0375ECB6F4C7092E35863 /* RHAddressBookGeoResult.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-checker"; }; };
+		0C69EDF814824FD18B316D39 /* RHMultiValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C6224CADFD4DD481B60A21 /* RHMultiValue.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-checker"; }; };
+		1979E403C8904337912557AF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5CE4B835BC142C1BC4C57C4 /* Foundation.framework */; };
+		1D9B42F4C29746469AEC525E /* RHPersonLabels.h in Headers */ = {isa = PBXBuildFile; fileRef = CF3F659687DB471CA18B7A62 /* RHPersonLabels.h */; };
+		22C30171C6F742078D625E1E /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F12114B0747743C292C49813 /* AddressBookUI.framework */; };
+		22FB4562892D46F4B46B658F /* Pods-RHAddressBook-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BCBEF2574E34D3989546123 /* Pods-RHAddressBook-dummy.m */; };
+		27FAF6ABC5174760BCD6667C /* RHSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 521FBB9605EC420E841A805A /* RHSource.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-checker"; }; };
+		36ADF88F8A5E49818C8BA112 /* NSThread+RHBlockAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A3FA846923BB465DBCDF0945 /* NSThread+RHBlockAdditions.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-checker"; }; };
+		382E0F3AF0F44C33B13B65A8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5CE4B835BC142C1BC4C57C4 /* Foundation.framework */; };
+		38F3C4D1E29841D385102498 /* libPods-RHAddressBook.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC401C7784AF4639AA2DE5E5 /* libPods-RHAddressBook.a */; };
+		3DB93D297DAB489B9F1E3AEA /* RHAddressBook.m in Sources */ = {isa = PBXBuildFile; fileRef = 95739CA37D254675B3693B4B /* RHAddressBook.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-checker"; }; };
+		49625F23C85A4F0C953CE571 /* RHGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = BBC44B3D2E4A43B59DEE84B0 /* RHGroup.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-checker"; }; };
+		590D168593004B5F8142C099 /* RHAddressBookThreadMain.h in Headers */ = {isa = PBXBuildFile; fileRef = 91CE3069A5A24B099077F654 /* RHAddressBookThreadMain.h */; };
+		59C7A76777584A46A026CF90 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03B537322B664A0B91BA2616 /* AddressBook.framework */; };
+		6B36B17D171D444B88603DBD /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B8F1239060D4B448B9ADB13 /* Pods-dummy.m */; };
+		759A455376CD47259DC8E67F /* RHAddressBook_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 44EC83A912C94645A9884BB6 /* RHAddressBook_Private.h */; };
+		78B586B3A9324D86AD03C540 /* RHSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 928A49DE0CA5499BAE801587 /* RHSource.h */; };
+		8440A15C74B2430CAFD915D3 /* RHAddressBookGeoResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BB04AA0411E4EBFBEFC6E0C /* RHAddressBookGeoResult.h */; };
+		86DFC754FBC148FFBEDA85C9 /* RHAddressBookSharedServices.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BA05730B6BC4BF4A7E1D997 /* RHAddressBookSharedServices.h */; };
+		894821DA55094F70924C7367 /* RHARCSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CD8907910E04C7C9CAE3A4D /* RHARCSupport.h */; };
+		96BF52FE485D464482583683 /* RHRecord_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 67DFB9B858A1462592954D57 /* RHRecord_Private.h */; };
+		97697E30DF174FA798238FE4 /* AddressBook.h in Headers */ = {isa = PBXBuildFile; fileRef = 464ED77F4E9945C8B5DC1CF3 /* AddressBook.h */; };
+		99C589A4A0A343F38F87F626 /* NSThread+RHBlockAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 266F29F8841641FC9AF68C97 /* NSThread+RHBlockAdditions.h */; };
+		B6243B4BB92C4F86A5B296B6 /* RHAddressBookSharedServices.m in Sources */ = {isa = PBXBuildFile; fileRef = 998B2C8473174167BDF8FBFE /* RHAddressBookSharedServices.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-checker"; }; };
+		BC6215FCB49349039F29CBE3 /* RHRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = C0D3D180B84B44CD9353D5A2 /* RHRecord.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-checker"; }; };
+		BF56AB21C3B347AFA7D20C10 /* RHGroup.h in Headers */ = {isa = PBXBuildFile; fileRef = 529B408326434C18A3054EB2 /* RHGroup.h */; };
+		C240AD86144F479B9E4CDE76 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF2404A27909434AB21C4F4F /* CoreLocation.framework */; };
+		CDEA3B3ACE6848DEB1383D63 /* RHAddressBookThreadMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 0464DDA1E0BB44C484378518 /* RHAddressBookThreadMain.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-checker"; }; };
+		D9F5BC0892D943A2872451E3 /* RHAddressBook.h in Headers */ = {isa = PBXBuildFile; fileRef = E5F5FB835EA344A78DADDE45 /* RHAddressBook.h */; };
+		E52913E8549648AE92D62A70 /* RHRecord.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F95C75A854745E887D60198 /* RHRecord.h */; };
+		E91310D9E8B941AC8587F18C /* RHPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB69E5387C74BA2AEF3A89A /* RHPerson.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-checker"; }; };
+		EAC52965527047DA8D16F7E3 /* RHMultiValue.h in Headers */ = {isa = PBXBuildFile; fileRef = F360B480AC19420AA2DC8C5E /* RHMultiValue.h */; };
+		F66871E99E3C4A62BD78FB33 /* RHPerson.h in Headers */ = {isa = PBXBuildFile; fileRef = 7114D1B71229461E99143612 /* RHPerson.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B811331372944F828CD19D15 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1C0549E0942F42598ECBD3F8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 467BEAA95943417D8A105C95;
+			remoteInfo = "Pods-RHAddressBook";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03B537322B664A0B91BA2616 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/AddressBook.framework; sourceTree = DEVELOPER_DIR; };
+		0464DDA1E0BB44C484378518 /* RHAddressBookThreadMain.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RHAddressBookThreadMain.m; path = RHAddressBook/RHAddressBookThreadMain.m; sourceTree = "<group>"; };
+		0BA05730B6BC4BF4A7E1D997 /* RHAddressBookSharedServices.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RHAddressBookSharedServices.h; path = RHAddressBook/RHAddressBookSharedServices.h; sourceTree = "<group>"; };
+		0BCBEF2574E34D3989546123 /* Pods-RHAddressBook-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RHAddressBook-dummy.m"; sourceTree = "<group>"; };
+		107D523A4D7148F8BFA0E525 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		1CD8907910E04C7C9CAE3A4D /* RHARCSupport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RHARCSupport.h; path = RHAddressBook/RHARCSupport.h; sourceTree = "<group>"; };
+		1CDC481AE0384CA89AC0305D /* Pods-RHAddressBook.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RHAddressBook.xcconfig"; sourceTree = "<group>"; };
+		25D0375ECB6F4C7092E35863 /* RHAddressBookGeoResult.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RHAddressBookGeoResult.m; path = RHAddressBook/RHAddressBookGeoResult.m; sourceTree = "<group>"; };
+		266F29F8841641FC9AF68C97 /* NSThread+RHBlockAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSThread+RHBlockAdditions.h"; path = "RHAddressBook/NSThread+RHBlockAdditions.h"; sourceTree = "<group>"; };
+		26C6224CADFD4DD481B60A21 /* RHMultiValue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RHMultiValue.m; path = RHAddressBook/RHMultiValue.m; sourceTree = "<group>"; };
+		2F878F339A6E4A069FF213E7 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.xcconfig; sourceTree = "<group>"; };
+		37B98F87BB724EE3AF918985 /* Pods-RHAddressBook-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RHAddressBook-Private.xcconfig"; sourceTree = "<group>"; };
+		3F95C75A854745E887D60198 /* RHRecord.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RHRecord.h; path = RHAddressBook/RHRecord.h; sourceTree = "<group>"; };
+		3FB69E5387C74BA2AEF3A89A /* RHPerson.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RHPerson.m; path = RHAddressBook/RHPerson.m; sourceTree = "<group>"; };
+		44EC83A912C94645A9884BB6 /* RHAddressBook_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RHAddressBook_Private.h; path = RHAddressBook/RHAddressBook_Private.h; sourceTree = "<group>"; };
+		464ED77F4E9945C8B5DC1CF3 /* AddressBook.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AddressBook.h; path = RHAddressBook/AddressBook.h; sourceTree = "<group>"; };
+		4BB04AA0411E4EBFBEFC6E0C /* RHAddressBookGeoResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RHAddressBookGeoResult.h; path = RHAddressBook/RHAddressBookGeoResult.h; sourceTree = "<group>"; };
+		521FBB9605EC420E841A805A /* RHSource.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RHSource.m; path = RHAddressBook/RHSource.m; sourceTree = "<group>"; };
+		529B408326434C18A3054EB2 /* RHGroup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RHGroup.h; path = RHAddressBook/RHGroup.h; sourceTree = "<group>"; };
+		62DD98B1D6C24F01B9A26154 /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
+		67DFB9B858A1462592954D57 /* RHRecord_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RHRecord_Private.h; path = RHAddressBook/RHRecord_Private.h; sourceTree = "<group>"; };
+		68DCFB549E624C388693A303 /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
+		7114D1B71229461E99143612 /* RHPerson.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RHPerson.h; path = RHAddressBook/RHPerson.h; sourceTree = "<group>"; };
+		8B8F1239060D4B448B9ADB13 /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
+		91CE3069A5A24B099077F654 /* RHAddressBookThreadMain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RHAddressBookThreadMain.h; path = RHAddressBook/RHAddressBookThreadMain.h; sourceTree = "<group>"; };
+		928A49DE0CA5499BAE801587 /* RHSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RHSource.h; path = RHAddressBook/RHSource.h; sourceTree = "<group>"; };
+		95739CA37D254675B3693B4B /* RHAddressBook.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RHAddressBook.m; path = RHAddressBook/RHAddressBook.m; sourceTree = "<group>"; };
+		998B2C8473174167BDF8FBFE /* RHAddressBookSharedServices.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RHAddressBookSharedServices.m; path = RHAddressBook/RHAddressBookSharedServices.m; sourceTree = "<group>"; };
+		9DAD54304F3E4ACBB31D80B7 /* Pods-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-environment.h"; sourceTree = "<group>"; };
+		A3FA846923BB465DBCDF0945 /* NSThread+RHBlockAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSThread+RHBlockAdditions.m"; path = "RHAddressBook/NSThread+RHBlockAdditions.m"; sourceTree = "<group>"; };
+		BBC44B3D2E4A43B59DEE84B0 /* RHGroup.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RHGroup.m; path = RHAddressBook/RHGroup.m; sourceTree = "<group>"; };
+		C0D3D180B84B44CD9353D5A2 /* RHRecord.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RHRecord.m; path = RHAddressBook/RHRecord.m; sourceTree = "<group>"; };
+		CF3F659687DB471CA18B7A62 /* RHPersonLabels.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RHPersonLabels.h; path = RHAddressBook/RHPersonLabels.h; sourceTree = "<group>"; };
+		D5CE4B835BC142C1BC4C57C4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DF2404A27909434AB21C4F4F /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreLocation.framework; sourceTree = DEVELOPER_DIR; };
+		E3EC4027943E4B3CAC386E1B /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5F5FB835EA344A78DADDE45 /* RHAddressBook.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RHAddressBook.h; path = RHAddressBook/RHAddressBook.h; sourceTree = "<group>"; };
+		EC401C7784AF4639AA2DE5E5 /* libPods-RHAddressBook.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RHAddressBook.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F11604916C894884936A22CF /* Pods-RHAddressBook-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RHAddressBook-prefix.pch"; sourceTree = "<group>"; };
+		F12114B0747743C292C49813 /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/AddressBookUI.framework; sourceTree = DEVELOPER_DIR; };
+		F1C50EBE66DE4AA992A6C413 /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
+		F360B480AC19420AA2DC8C5E /* RHMultiValue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RHMultiValue.h; path = RHAddressBook/RHMultiValue.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3E7A2B84A3F644F2A9E3FA3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1979E403C8904337912557AF /* Foundation.framework in Frameworks */,
+				59C7A76777584A46A026CF90 /* AddressBook.framework in Frameworks */,
+				C240AD86144F479B9E4CDE76 /* CoreLocation.framework in Frameworks */,
+				22C30171C6F742078D625E1E /* AddressBookUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D4ABE6D41A148A2AA99885E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				382E0F3AF0F44C33B13B65A8 /* Foundation.framework in Frameworks */,
+				38F3C4D1E29841D385102498 /* libPods-RHAddressBook.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		039637990A3949D68FE2FDCC = {
+			isa = PBXGroup;
+			children = (
+				178C11F6346147D69382C50A /* Frameworks */,
+				7F7EDE6D86C540319A5C52D3 /* Pods */,
+				4A31615BA5DE4B90A8AA11AF /* Products */,
+				49BC789BC66B4E80A2D9F2A3 /* Targets Support Files */,
+				107D523A4D7148F8BFA0E525 /* Podfile */,
+			);
+			sourceTree = "<group>";
+		};
+		178C11F6346147D69382C50A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				03B537322B664A0B91BA2616 /* AddressBook.framework */,
+				F12114B0747743C292C49813 /* AddressBookUI.framework */,
+				DF2404A27909434AB21C4F4F /* CoreLocation.framework */,
+				D5CE4B835BC142C1BC4C57C4 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		348E2EFF2BE04BF093635FB6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				37B98F87BB724EE3AF918985 /* Pods-RHAddressBook-Private.xcconfig */,
+				0BCBEF2574E34D3989546123 /* Pods-RHAddressBook-dummy.m */,
+				F11604916C894884936A22CF /* Pods-RHAddressBook-prefix.pch */,
+				1CDC481AE0384CA89AC0305D /* Pods-RHAddressBook.xcconfig */,
+			);
+			name = "Support Files";
+			sourceTree = SOURCE_ROOT;
+		};
+		49BC789BC66B4E80A2D9F2A3 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4E9C7906CFE5465BBC6A059E /* Pods */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		4A31615BA5DE4B90A8AA11AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E3EC4027943E4B3CAC386E1B /* libPods.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4E9C7906CFE5465BBC6A059E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				62DD98B1D6C24F01B9A26154 /* Pods-acknowledgements.markdown */,
+				F1C50EBE66DE4AA992A6C413 /* Pods-acknowledgements.plist */,
+				8B8F1239060D4B448B9ADB13 /* Pods-dummy.m */,
+				9DAD54304F3E4ACBB31D80B7 /* Pods-environment.h */,
+				68DCFB549E624C388693A303 /* Pods-resources.sh */,
+				2F878F339A6E4A069FF213E7 /* Pods.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		62787B823C8B4410BAD7CAE8 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				464ED77F4E9945C8B5DC1CF3 /* AddressBook.h */,
+				266F29F8841641FC9AF68C97 /* NSThread+RHBlockAdditions.h */,
+				A3FA846923BB465DBCDF0945 /* NSThread+RHBlockAdditions.m */,
+				1CD8907910E04C7C9CAE3A4D /* RHARCSupport.h */,
+				E5F5FB835EA344A78DADDE45 /* RHAddressBook.h */,
+				95739CA37D254675B3693B4B /* RHAddressBook.m */,
+				4BB04AA0411E4EBFBEFC6E0C /* RHAddressBookGeoResult.h */,
+				25D0375ECB6F4C7092E35863 /* RHAddressBookGeoResult.m */,
+				0BA05730B6BC4BF4A7E1D997 /* RHAddressBookSharedServices.h */,
+				998B2C8473174167BDF8FBFE /* RHAddressBookSharedServices.m */,
+				91CE3069A5A24B099077F654 /* RHAddressBookThreadMain.h */,
+				0464DDA1E0BB44C484378518 /* RHAddressBookThreadMain.m */,
+				44EC83A912C94645A9884BB6 /* RHAddressBook_Private.h */,
+				529B408326434C18A3054EB2 /* RHGroup.h */,
+				BBC44B3D2E4A43B59DEE84B0 /* RHGroup.m */,
+				F360B480AC19420AA2DC8C5E /* RHMultiValue.h */,
+				26C6224CADFD4DD481B60A21 /* RHMultiValue.m */,
+				7114D1B71229461E99143612 /* RHPerson.h */,
+				3FB69E5387C74BA2AEF3A89A /* RHPerson.m */,
+				CF3F659687DB471CA18B7A62 /* RHPersonLabels.h */,
+				3F95C75A854745E887D60198 /* RHRecord.h */,
+				C0D3D180B84B44CD9353D5A2 /* RHRecord.m */,
+				67DFB9B858A1462592954D57 /* RHRecord_Private.h */,
+				928A49DE0CA5499BAE801587 /* RHSource.h */,
+				521FBB9605EC420E841A805A /* RHSource.m */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		655257F1AB554E53A54B4386 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC401C7784AF4639AA2DE5E5 /* libPods-RHAddressBook.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7F7EDE6D86C540319A5C52D3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EE2D8BC0ABF94430A5E1DD70 /* RHAddressBook */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EE2D8BC0ABF94430A5E1DD70 /* RHAddressBook */ = {
+			isa = PBXGroup;
+			children = (
+				655257F1AB554E53A54B4386 /* Products */,
+				62787B823C8B4410BAD7CAE8 /* Source Files */,
+				348E2EFF2BE04BF093635FB6 /* Support Files */,
+			);
+			path = RHAddressBook;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8DC91FCCCF9B47D69E546E00 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97697E30DF174FA798238FE4 /* AddressBook.h in Headers */,
+				99C589A4A0A343F38F87F626 /* NSThread+RHBlockAdditions.h in Headers */,
+				D9F5BC0892D943A2872451E3 /* RHAddressBook.h in Headers */,
+				759A455376CD47259DC8E67F /* RHAddressBook_Private.h in Headers */,
+				8440A15C74B2430CAFD915D3 /* RHAddressBookGeoResult.h in Headers */,
+				86DFC754FBC148FFBEDA85C9 /* RHAddressBookSharedServices.h in Headers */,
+				590D168593004B5F8142C099 /* RHAddressBookThreadMain.h in Headers */,
+				894821DA55094F70924C7367 /* RHARCSupport.h in Headers */,
+				BF56AB21C3B347AFA7D20C10 /* RHGroup.h in Headers */,
+				EAC52965527047DA8D16F7E3 /* RHMultiValue.h in Headers */,
+				F66871E99E3C4A62BD78FB33 /* RHPerson.h in Headers */,
+				1D9B42F4C29746469AEC525E /* RHPersonLabels.h in Headers */,
+				E52913E8549648AE92D62A70 /* RHRecord.h in Headers */,
+				96BF52FE485D464482583683 /* RHRecord_Private.h in Headers */,
+				78B586B3A9324D86AD03C540 /* RHSource.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		467BEAA95943417D8A105C95 /* Pods-RHAddressBook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A0EB54F6D5D430E8BF70DF3 /* Build configuration list for PBXNativeTarget "Pods-RHAddressBook" */;
+			buildPhases = (
+				DF788CC8EE98420DB83BFBA6 /* Sources */,
+				3E7A2B84A3F644F2A9E3FA3C /* Frameworks */,
+				8DC91FCCCF9B47D69E546E00 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-RHAddressBook";
+			productName = "Pods-RHAddressBook";
+			productReference = EC401C7784AF4639AA2DE5E5 /* libPods-RHAddressBook.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		8B7DE7B79824462995B40E45 /* Pods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C48974CBCEE4B009353A1BA /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildPhases = (
+				643F6EB56F7F4E7D9248D7E0 /* Sources */,
+				6D4ABE6D41A148A2AA99885E /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				893AAFCF50F347F0A454FA79 /* PBXTargetDependency */,
+			);
+			name = Pods;
+			productName = Pods;
+			productReference = E3EC4027943E4B3CAC386E1B /* libPods.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1C0549E0942F42598ECBD3F8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+			};
+			buildConfigurationList = 51BFED6E79EA473AA28123F3 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 039637990A3949D68FE2FDCC;
+			productRefGroup = 4A31615BA5DE4B90A8AA11AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				467BEAA95943417D8A105C95 /* Pods-RHAddressBook */,
+				8B7DE7B79824462995B40E45 /* Pods */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		643F6EB56F7F4E7D9248D7E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B36B17D171D444B88603DBD /* Pods-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF788CC8EE98420DB83BFBA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36ADF88F8A5E49818C8BA112 /* NSThread+RHBlockAdditions.m in Sources */,
+				3DB93D297DAB489B9F1E3AEA /* RHAddressBook.m in Sources */,
+				084FDA80D4BD46B8AD1D18B9 /* RHAddressBookGeoResult.m in Sources */,
+				B6243B4BB92C4F86A5B296B6 /* RHAddressBookSharedServices.m in Sources */,
+				CDEA3B3ACE6848DEB1383D63 /* RHAddressBookThreadMain.m in Sources */,
+				49625F23C85A4F0C953CE571 /* RHGroup.m in Sources */,
+				0C69EDF814824FD18B316D39 /* RHMultiValue.m in Sources */,
+				E91310D9E8B941AC8587F18C /* RHPerson.m in Sources */,
+				BC6215FCB49349039F29CBE3 /* RHRecord.m in Sources */,
+				27FAF6ABC5174760BCD6667C /* RHSource.m in Sources */,
+				22FB4562892D46F4B46B658F /* Pods-RHAddressBook-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		893AAFCF50F347F0A454FA79 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 467BEAA95943417D8A105C95 /* Pods-RHAddressBook */;
+			targetProxy = B811331372944F828CD19D15 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3CC48B5558DC435293C9C757 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F878F339A6E4A069FF213E7 /* Pods.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		79756CD3DF974B928C861145 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+			};
+			name = Release;
+		};
+		858C9BDAF15E4D9DBB74D1AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37B98F87BB724EE3AF918985 /* Pods-RHAddressBook-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pods-RHAddressBook-prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		A262429A46C140678733B9A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37B98F87BB724EE3AF918985 /* Pods-RHAddressBook-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pods-RHAddressBook-prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C7A8D6A4384E4C90880BFAF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F878F339A6E4A069FF213E7 /* Pods.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E3AC32A79CC64BF2A76674FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A0EB54F6D5D430E8BF70DF3 /* Build configuration list for PBXNativeTarget "Pods-RHAddressBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A262429A46C140678733B9A4 /* Release */,
+				858C9BDAF15E4D9DBB74D1AC /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		51BFED6E79EA473AA28123F3 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3AC32A79CC64BF2A76674FF /* Debug */,
+				79756CD3DF974B928C861145 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C48974CBCEE4B009353A1BA /* Build configuration list for PBXNativeTarget "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7A8D6A4384E4C90880BFAF8 /* Release */,
+				3CC48B5558DC435293C9C757 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1C0549E0942F42598ECBD3F8 /* Project object */;
+}
