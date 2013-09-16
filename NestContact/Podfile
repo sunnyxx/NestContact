@@ -1,0 +1,6 @@
+# CocoaPods management of 3rd part libs
+# Created by Sunny
+
+inhibit_all_warnings!
+
+pod 'RHAddressBook','1.0.2'
