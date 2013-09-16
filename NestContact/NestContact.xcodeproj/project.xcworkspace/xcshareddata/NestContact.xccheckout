@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>9E20CC55-B1E8-41EF-98A4-F29338D5B91A</string>
+	<key>IDESourceControlProjectName</key>
+	<string>NestContact</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>0038FB41-F6D9-46B7-B843-ECC98C83D851</key>
+		<string>https://github.com/sunnyxx/NestContact.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>NestContact/NestContact.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>0038FB41-F6D9-46B7-B843-ECC98C83D851</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/sunnyxx/NestContact.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>0038FB41-F6D9-46B7-B843-ECC98C83D851</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>0038FB41-F6D9-46B7-B843-ECC98C83D851</string>
+			<key>IDESourceControlWCCName</key>
+			<string>NestContact</string>
+		</dict>
+	</array>
+</dict>
+</plist>
