@@ -2,6 +2,5 @@
 # Created by Sunny
 
 inhibit_all_warnings!
-pod 'RHAddressBook','1.0.2'
-
-#pod 'BlocksKit', '1.0.0'
+pod 'RHAddressBook',:head
+pod 'BlocksKit', :head

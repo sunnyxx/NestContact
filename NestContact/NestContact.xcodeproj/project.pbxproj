@@ -11,17 +11,18 @@
 		A32098B917E6242500B2DE1C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A32098B817E6242500B2DE1C /* Foundation.framework */; };
 		A32098BB17E6242500B2DE1C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A32098BA17E6242500B2DE1C /* CoreGraphics.framework */; };
 		A32098BD17E6242500B2DE1C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A32098BC17E6242500B2DE1C /* UIKit.framework */; };
-		A32098C317E6242500B2DE1C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A32098C117E6242500B2DE1C /* InfoPlist.strings */; };
-		A32098C517E6242500B2DE1C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A32098C417E6242500B2DE1C /* main.m */; };
-		A32098C917E6242500B2DE1C /* NCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A32098C817E6242500B2DE1C /* NCAppDelegate.m */; };
-		A32098CC17E6242500B2DE1C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A32098CA17E6242500B2DE1C /* Main.storyboard */; };
-		A32098CF17E6242500B2DE1C /* NCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A32098CE17E6242500B2DE1C /* NCViewController.m */; };
-		A32098D117E6242500B2DE1C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A32098D017E6242500B2DE1C /* Images.xcassets */; };
 		A32098D817E6242500B2DE1C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A32098D717E6242500B2DE1C /* XCTest.framework */; };
 		A32098D917E6242500B2DE1C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A32098B817E6242500B2DE1C /* Foundation.framework */; };
 		A32098DA17E6242500B2DE1C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A32098BC17E6242500B2DE1C /* UIKit.framework */; };
-		A32098E217E6242500B2DE1C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A32098E017E6242500B2DE1C /* InfoPlist.strings */; };
 		A32098E417E6242500B2DE1C /* NestContactTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A32098E317E6242500B2DE1C /* NestContactTests.m */; };
+		A33B4B0117F87B5700A5962B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A33B4AED17F87B5700A5962B /* Images.xcassets */; };
+		A33B4B0217F87B5700A5962B /* NCCollectionHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = A33B4AF317F87B5700A5962B /* NCCollectionHeaderView.m */; };
+		A33B4B0317F87B5700A5962B /* NCCollectionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A33B4AF517F87B5700A5962B /* NCCollectionVC.m */; };
+		A33B4B0417F87B5700A5962B /* NCSpringLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = A33B4AF717F87B5700A5962B /* NCSpringLayout.m */; };
+		A33B4B0517F87B5700A5962B /* NCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A33B4AF917F87B5700A5962B /* NCViewController.m */; };
+		A33B4B0617F87B5700A5962B /* NCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A33B4AFB17F87B5700A5962B /* NCAppDelegate.m */; };
+		A33B4B0717F87B5700A5962B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A33B4AFE17F87B5700A5962B /* main.m */; };
+		A33B4B0A17F87B7300A5962B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A33B4B0917F87B7300A5962B /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,21 +42,25 @@
 		A32098B817E6242500B2DE1C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A32098BA17E6242500B2DE1C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		A32098BC17E6242500B2DE1C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		A32098C017E6242500B2DE1C /* NestContact-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NestContact-Info.plist"; sourceTree = "<group>"; };
-		A32098C217E6242500B2DE1C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		A32098C417E6242500B2DE1C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		A32098C617E6242500B2DE1C /* NestContact-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NestContact-Prefix.pch"; sourceTree = "<group>"; };
-		A32098C717E6242500B2DE1C /* NCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NCAppDelegate.h; sourceTree = "<group>"; };
-		A32098C817E6242500B2DE1C /* NCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NCAppDelegate.m; sourceTree = "<group>"; };
-		A32098CB17E6242500B2DE1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A32098CD17E6242500B2DE1C /* NCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NCViewController.h; sourceTree = "<group>"; };
-		A32098CE17E6242500B2DE1C /* NCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NCViewController.m; sourceTree = "<group>"; };
-		A32098D017E6242500B2DE1C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		A32098D617E6242500B2DE1C /* NestContactTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NestContactTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A32098D717E6242500B2DE1C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		A32098DF17E6242500B2DE1C /* NestContactTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NestContactTests-Info.plist"; sourceTree = "<group>"; };
-		A32098E117E6242500B2DE1C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A32098E317E6242500B2DE1C /* NestContactTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NestContactTests.m; sourceTree = "<group>"; };
+		A33B4AED17F87B5700A5962B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A33B4AF217F87B5700A5962B /* NCCollectionHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NCCollectionHeaderView.h; sourceTree = "<group>"; };
+		A33B4AF317F87B5700A5962B /* NCCollectionHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NCCollectionHeaderView.m; sourceTree = "<group>"; };
+		A33B4AF417F87B5700A5962B /* NCCollectionVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NCCollectionVC.h; sourceTree = "<group>"; };
+		A33B4AF517F87B5700A5962B /* NCCollectionVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NCCollectionVC.m; sourceTree = "<group>"; };
+		A33B4AF617F87B5700A5962B /* NCSpringLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NCSpringLayout.h; sourceTree = "<group>"; };
+		A33B4AF717F87B5700A5962B /* NCSpringLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NCSpringLayout.m; sourceTree = "<group>"; };
+		A33B4AF817F87B5700A5962B /* NCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NCViewController.h; sourceTree = "<group>"; };
+		A33B4AF917F87B5700A5962B /* NCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NCViewController.m; sourceTree = "<group>"; };
+		A33B4AFA17F87B5700A5962B /* NCAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NCAppDelegate.h; sourceTree = "<group>"; };
+		A33B4AFB17F87B5700A5962B /* NCAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NCAppDelegate.m; sourceTree = "<group>"; };
+		A33B4AFE17F87B5700A5962B /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A33B4AFF17F87B5700A5962B /* NestContact-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "NestContact-Info.plist"; sourceTree = "<group>"; };
+		A33B4B0017F87B5700A5962B /* NestContact-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NestContact-Prefix.pch"; sourceTree = "<group>"; };
+		A33B4B0917F87B7300A5962B /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,26 +123,11 @@
 		A32098BE17E6242500B2DE1C /* NestContact */ = {
 			isa = PBXGroup;
 			children = (
-				A32098C717E6242500B2DE1C /* NCAppDelegate.h */,
-				A32098C817E6242500B2DE1C /* NCAppDelegate.m */,
-				A32098CA17E6242500B2DE1C /* Main.storyboard */,
-				A32098CD17E6242500B2DE1C /* NCViewController.h */,
-				A32098CE17E6242500B2DE1C /* NCViewController.m */,
-				A32098D017E6242500B2DE1C /* Images.xcassets */,
-				A32098BF17E6242500B2DE1C /* Supporting Files */,
+				A33B4AEE17F87B5700A5962B /* Sources Files */,
+				A33B4AEC17F87B5700A5962B /* Resources Files */,
+				A33B4AFD17F87B5700A5962B /* Supporting Files */,
 			);
 			path = NestContact;
-			sourceTree = "<group>";
-		};
-		A32098BF17E6242500B2DE1C /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				A32098C017E6242500B2DE1C /* NestContact-Info.plist */,
-				A32098C117E6242500B2DE1C /* InfoPlist.strings */,
-				A32098C417E6242500B2DE1C /* main.m */,
-				A32098C617E6242500B2DE1C /* NestContact-Prefix.pch */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		A32098DD17E6242500B2DE1C /* NestContactTests */ = {
@@ -153,9 +143,76 @@
 			isa = PBXGroup;
 			children = (
 				A32098DF17E6242500B2DE1C /* NestContactTests-Info.plist */,
-				A32098E017E6242500B2DE1C /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A33B4AEC17F87B5700A5962B /* Resources Files */ = {
+			isa = PBXGroup;
+			children = (
+				A33B4AED17F87B5700A5962B /* Images.xcassets */,
+			);
+			path = "Resources Files";
+			sourceTree = "<group>";
+		};
+		A33B4AEE17F87B5700A5962B /* Sources Files */ = {
+			isa = PBXGroup;
+			children = (
+				A33B4AEF17F87B5700A5962B /* Data Model Module */,
+				A33B4AF017F87B5700A5962B /* Display Layer */,
+				A33B4AFA17F87B5700A5962B /* NCAppDelegate.h */,
+				A33B4AFB17F87B5700A5962B /* NCAppDelegate.m */,
+				A33B4AFC17F87B5700A5962B /* Utility Module */,
+			);
+			path = "Sources Files";
+			sourceTree = "<group>";
+		};
+		A33B4AEF17F87B5700A5962B /* Data Model Module */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Data Model Module";
+			sourceTree = "<group>";
+		};
+		A33B4AF017F87B5700A5962B /* Display Layer */ = {
+			isa = PBXGroup;
+			children = (
+				A33B4B0917F87B7300A5962B /* Main.storyboard */,
+				A33B4AF117F87B5700A5962B /* Collection */,
+			);
+			path = "Display Layer";
+			sourceTree = "<group>";
+		};
+		A33B4AF117F87B5700A5962B /* Collection */ = {
+			isa = PBXGroup;
+			children = (
+				A33B4AF217F87B5700A5962B /* NCCollectionHeaderView.h */,
+				A33B4AF317F87B5700A5962B /* NCCollectionHeaderView.m */,
+				A33B4AF417F87B5700A5962B /* NCCollectionVC.h */,
+				A33B4AF517F87B5700A5962B /* NCCollectionVC.m */,
+				A33B4AF617F87B5700A5962B /* NCSpringLayout.h */,
+				A33B4AF717F87B5700A5962B /* NCSpringLayout.m */,
+				A33B4AF817F87B5700A5962B /* NCViewController.h */,
+				A33B4AF917F87B5700A5962B /* NCViewController.m */,
+			);
+			path = Collection;
+			sourceTree = "<group>";
+		};
+		A33B4AFC17F87B5700A5962B /* Utility Module */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Utility Module";
+			sourceTree = "<group>";
+		};
+		A33B4AFD17F87B5700A5962B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A33B4AFE17F87B5700A5962B /* main.m */,
+				A33B4AFF17F87B5700A5962B /* NestContact-Info.plist */,
+				A33B4B0017F87B5700A5962B /* NestContact-Prefix.pch */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -240,9 +297,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A32098D117E6242500B2DE1C /* Images.xcassets in Resources */,
-				A32098C317E6242500B2DE1C /* InfoPlist.strings in Resources */,
-				A32098CC17E6242500B2DE1C /* Main.storyboard in Resources */,
+				A33B4B0A17F87B7300A5962B /* Main.storyboard in Resources */,
+				A33B4B0117F87B5700A5962B /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,7 +306,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A32098E217E6242500B2DE1C /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,9 +349,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A32098CF17E6242500B2DE1C /* NCViewController.m in Sources */,
-				A32098C517E6242500B2DE1C /* main.m in Sources */,
-				A32098C917E6242500B2DE1C /* NCAppDelegate.m in Sources */,
+				A33B4B0217F87B5700A5962B /* NCCollectionHeaderView.m in Sources */,
+				A33B4B0517F87B5700A5962B /* NCViewController.m in Sources */,
+				A33B4B0417F87B5700A5962B /* NCSpringLayout.m in Sources */,
+				A33B4B0317F87B5700A5962B /* NCCollectionVC.m in Sources */,
+				A33B4B0717F87B5700A5962B /* main.m in Sources */,
+				A33B4B0617F87B5700A5962B /* NCAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,33 +375,6 @@
 			targetProxy = A32098DB17E6242500B2DE1C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		A32098C117E6242500B2DE1C /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A32098C217E6242500B2DE1C /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		A32098CA17E6242500B2DE1C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A32098CB17E6242500B2DE1C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		A32098E017E6242500B2DE1C /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A32098E117E6242500B2DE1C /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		A32098E517E6242500B2DE1C /* Debug */ = {
@@ -429,12 +460,12 @@
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "NestContact/NestContact-Prefix.pch";
-				INFOPLIST_FILE = "NestContact/NestContact-Info.plist";
+				GCC_PREFIX_HEADER = "NestContact/Supporting Files/NestContact-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/NestContact/Supporting Files/NestContact-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -448,12 +479,12 @@
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "NestContact/NestContact-Prefix.pch";
-				INFOPLIST_FILE = "NestContact/NestContact-Info.plist";
+				GCC_PREFIX_HEADER = "NestContact/Supporting Files/NestContact-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/NestContact/Supporting Files/NestContact-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
