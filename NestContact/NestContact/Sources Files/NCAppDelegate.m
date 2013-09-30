@@ -7,13 +7,12 @@
 //
 
 #import "NCAppDelegate.h"
+#import <RHAddressBook/AddressBook.h>
 
 @implementation NCAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-//    [[UINavigationBar appearance] setBackgroundImage:[UIImage imageNamed:@"navbar"] forBarMetrics:UIBarMetricsDefault];
-    
     return YES;
 }
 

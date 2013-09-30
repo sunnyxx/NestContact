@@ -1,12 +1,12 @@
 PODS:
-  - BlocksKit (HEAD based on 1.8.3):
+  - BlocksKit (1.8.3):
     - libffi
   - libffi (3.0.13)
-  - RHAddressBook (HEAD based on 1.0.2)
+  - RHAddressBook (1.0.2)
 
 DEPENDENCIES:
-  - BlocksKit (HEAD)
-  - RHAddressBook (HEAD)
+  - BlocksKit
+  - RHAddressBook
 
 SPEC CHECKSUMS:
   BlocksKit: 27257f9cbbec0ea98c80ba83cc2ea7111ae62eb2

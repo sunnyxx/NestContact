@@ -19,6 +19,12 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+
+//    UIScreenEdgePanGestureRecognizer* edgePanGestrue = [[UIScreenEdgePanGestureRecognizer alloc] initWithHandler:^(UIGestureRecognizer *sender, UIGestureRecognizerState state, CGPoint location) {
+//        NSLog(@"%@", NSStringFromCGPoint(location));
+//    }];
+//    edgePanGestrue.edges = UIRectEdgeAll;
+//    [self.view addGestureRecognizer:edgePanGestrue];
     
 }
 - (NSInteger)numberOfSectionsInCollectionView:(UICollectionView *)collectionView

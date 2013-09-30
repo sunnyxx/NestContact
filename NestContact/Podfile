@@ -2,5 +2,8 @@
 # Created by Sunny
 
 inhibit_all_warnings!
-pod 'RHAddressBook',:head
-pod 'BlocksKit', :head
+pod 'RHAddressBook'
+pod 'BlocksKit'
+
+#pod 'SparkInspector'
+#pod 'Reveal-iOS-SDK'

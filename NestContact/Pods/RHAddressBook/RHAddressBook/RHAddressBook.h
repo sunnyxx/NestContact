@@ -32,14 +32,10 @@
 #import <AddressBook/AddressBook.h>
 
 //enable framework debug logging (by default, enabled if DEBUG is defined, change FALSE to TRUE to enable always)
-#ifndef RH_AB_ENABLE_DEBUG_LOGGING
-    #define RH_AB_ENABLE_DEBUG_LOGGING  ( defined(DEBUG) || FALSE )
-#endif
+#define RH_AB_ENABLE_DEBUG_LOGGING  ( defined(DEBUG) || FALSE )
 
 //include geocoding support in RHAddressbook. (0 == NO; 1 == YES;)
-#ifndef RH_AB_INCLUDE_GEOCODING
-    #define RH_AB_INCLUDE_GEOCODING 1
-#endif
+#define RH_AB_INCLUDE_GEOCODING 1
 
 
 @class RHRecord;
