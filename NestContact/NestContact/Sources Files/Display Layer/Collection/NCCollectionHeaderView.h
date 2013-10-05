@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface NCCollectionHeaderView : UICollectionReusableView
-
+- (void)setGroupName:(NSString *)groupName;
 @end

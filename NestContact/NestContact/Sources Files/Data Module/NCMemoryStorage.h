@@ -6,10 +6,12 @@
 //  Copyright (c) 2013年 sunny. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import <RHAddressBook/AddressBook.h>
 
 // ALL data stored in memory
 
 @interface NCMemoryStorage : NSObject
+
+@property (nonatomic, strong) RHAddressBook* addressBook;
 
 @end

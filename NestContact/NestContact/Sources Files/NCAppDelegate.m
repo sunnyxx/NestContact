@@ -7,12 +7,12 @@
 //
 
 #import "NCAppDelegate.h"
-#import <RHAddressBook/AddressBook.h>
 
 @implementation NCAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+
     return YES;
 }
 

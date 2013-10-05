@@ -8,24 +8,15 @@
 
 #import "NCCollectionHeaderView.h"
 
+@interface NCCollectionHeaderView ()
+@property (weak, nonatomic) IBOutlet UILabel *groupNameLabel;
+
+@end
 @implementation NCCollectionHeaderView
 
-- (id)initWithFrame:(CGRect)frame
+- (void)setGroupName:(NSString *)groupName
 {
-    self = [super initWithFrame:frame];
-    if (self) {
-        // Initialization code
-    }
-    return self;
+    self.groupNameLabel.text = groupName;
 }
-
-/*
-// Only override drawRect: if you perform custom drawing.
-// An empty implementation adversely affects performance during animation.
-- (void)drawRect:(CGRect)rect
-{
-    // Drawing code
-}
-*/
 
 @end
