@@ -35,7 +35,7 @@
 #define RH_AB_ENABLE_DEBUG_LOGGING  ( defined(DEBUG) || FALSE )
 
 //include geocoding support in RHAddressbook. (0 == NO; 1 == YES;)
-#define RH_AB_INCLUDE_GEOCODING 1
+#define RH_AB_INCLUDE_GEOCODING 0
 
 
 @class RHRecord;

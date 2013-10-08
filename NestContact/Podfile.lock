@@ -1,16 +1,22 @@
 PODS:
   - BlocksKit (1.8.3):
     - libffi
+  - Expecta (0.2.2)
   - libffi (3.0.13)
   - RHAddressBook (1.0.2)
+  - xlog (1.0.0)
 
 DEPENDENCIES:
   - BlocksKit
+  - Expecta
   - RHAddressBook
+  - xlog
 
 SPEC CHECKSUMS:
   BlocksKit: 27257f9cbbec0ea98c80ba83cc2ea7111ae62eb2
+  Expecta: 99adbb2e366a02796477523bfd426143350d9caf
   libffi: 64ef39353e747bb2b25e1026afd96a157bf9231c
   RHAddressBook: 64f78a4058e0a7849275c970bf19fe195edf94d0
+  xlog: 97db07274cce47911b86bb14229241776a9705cc
 
 COCOAPODS: 0.24.0

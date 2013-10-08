@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		7485B2F3C8AC45EBA1A393A7 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B2722EF9ACD4E36BD489FA9 /* libPods.a */; };
+		A319CB5E18006736007D87EB /* NCGroupCollectionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A319CB5D18006736007D87EB /* NCGroupCollectionVC.m */; };
+		A319CB62180118CD007D87EB /* NCGroupCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A319CB61180118CD007D87EB /* NCGroupCollectionViewCell.m */; };
+		A319CB66180148A3007D87EB /* NCAddressBook.m in Sources */ = {isa = PBXBuildFile; fileRef = A319CB65180148A3007D87EB /* NCAddressBook.m */; };
+		A319CB691801494D007D87EB /* NCAddressBookGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = A319CB681801494D007D87EB /* NCAddressBookGroup.m */; };
+		A319CB6C18014A0E007D87EB /* NCAddressBookMember.m in Sources */ = {isa = PBXBuildFile; fileRef = A319CB6B18014A0E007D87EB /* NCAddressBookMember.m */; };
 		A32098B917E6242500B2DE1C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A32098B817E6242500B2DE1C /* Foundation.framework */; };
 		A32098BB17E6242500B2DE1C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A32098BA17E6242500B2DE1C /* CoreGraphics.framework */; };
 		A32098BD17E6242500B2DE1C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A32098BC17E6242500B2DE1C /* UIKit.framework */; };
@@ -26,7 +31,9 @@
 		A33F1C2317FD20A900262ADA /* NCData.m in Sources */ = {isa = PBXBuildFile; fileRef = A33F1C2217FD20A900262ADA /* NCData.m */; };
 		A33F1C2617FD242100262ADA /* NCPersonDisplayCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A33F1C2517FD242100262ADA /* NCPersonDisplayCell.m */; };
 		A38181F817FFE86A002E5BF2 /* NCCreateNewPersonVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A38181F717FFE86A002E5BF2 /* NCCreateNewPersonVC.m */; };
-		A40F70BA17F977F500C4E99F /* NCMemoryStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = A40F70B917F977F400C4E99F /* NCMemoryStorage.m */; };
+		A3F269691803E8920033BAA1 /* NCAddressBookDataTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A3F269681803E8920033BAA1 /* NCAddressBookDataTests.m */; };
+		A3F2696D18043D1C0033BAA1 /* NCPersonPickerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A3F2696C18043D1C0033BAA1 /* NCPersonPickerVC.m */; };
+		BFE80E1AFCDE477B8E9165D1 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B2722EF9ACD4E36BD489FA9 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +49,16 @@
 /* Begin PBXFileReference section */
 		3B2722EF9ACD4E36BD489FA9 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		68CE58E82BEA4D07A3E7265B /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		A319CB5C18006736007D87EB /* NCGroupCollectionVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NCGroupCollectionVC.h; sourceTree = "<group>"; };
+		A319CB5D18006736007D87EB /* NCGroupCollectionVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NCGroupCollectionVC.m; sourceTree = "<group>"; };
+		A319CB60180118CD007D87EB /* NCGroupCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NCGroupCollectionViewCell.h; sourceTree = "<group>"; };
+		A319CB61180118CD007D87EB /* NCGroupCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NCGroupCollectionViewCell.m; sourceTree = "<group>"; };
+		A319CB64180148A3007D87EB /* NCAddressBook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NCAddressBook.h; sourceTree = "<group>"; };
+		A319CB65180148A3007D87EB /* NCAddressBook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NCAddressBook.m; sourceTree = "<group>"; };
+		A319CB671801494D007D87EB /* NCAddressBookGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NCAddressBookGroup.h; sourceTree = "<group>"; };
+		A319CB681801494D007D87EB /* NCAddressBookGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NCAddressBookGroup.m; sourceTree = "<group>"; };
+		A319CB6A18014A0E007D87EB /* NCAddressBookMember.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NCAddressBookMember.h; sourceTree = "<group>"; };
+		A319CB6B18014A0E007D87EB /* NCAddressBookMember.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NCAddressBookMember.m; sourceTree = "<group>"; };
 		A32098B517E6242500B2DE1C /* NestContact.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NestContact.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A32098B817E6242500B2DE1C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A32098BA17E6242500B2DE1C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -57,8 +74,8 @@
 		A33B4AF517F87B5700A5962B /* NCCollectionVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NCCollectionVC.m; sourceTree = "<group>"; };
 		A33B4AF617F87B5700A5962B /* NCSpringLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NCSpringLayout.h; sourceTree = "<group>"; };
 		A33B4AF717F87B5700A5962B /* NCSpringLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NCSpringLayout.m; sourceTree = "<group>"; };
-		A33B4AF817F87B5700A5962B /* NCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NCViewController.h; sourceTree = "<group>"; };
-		A33B4AF917F87B5700A5962B /* NCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NCViewController.m; sourceTree = "<group>"; };
+		A33B4AF817F87B5700A5962B /* NCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NCViewController.h; path = Collection/NCViewController.h; sourceTree = "<group>"; };
+		A33B4AF917F87B5700A5962B /* NCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NCViewController.m; path = Collection/NCViewController.m; sourceTree = "<group>"; };
 		A33B4AFA17F87B5700A5962B /* NCAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NCAppDelegate.h; sourceTree = "<group>"; };
 		A33B4AFB17F87B5700A5962B /* NCAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NCAppDelegate.m; sourceTree = "<group>"; };
 		A33B4AFE17F87B5700A5962B /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -71,8 +88,9 @@
 		A33F1C2517FD242100262ADA /* NCPersonDisplayCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NCPersonDisplayCell.m; sourceTree = "<group>"; };
 		A38181F617FFE86A002E5BF2 /* NCCreateNewPersonVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NCCreateNewPersonVC.h; sourceTree = "<group>"; };
 		A38181F717FFE86A002E5BF2 /* NCCreateNewPersonVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NCCreateNewPersonVC.m; sourceTree = "<group>"; };
-		A40F70B817F977F400C4E99F /* NCMemoryStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NCMemoryStorage.h; sourceTree = "<group>"; };
-		A40F70B917F977F400C4E99F /* NCMemoryStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NCMemoryStorage.m; sourceTree = "<group>"; };
+		A3F269681803E8920033BAA1 /* NCAddressBookDataTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NCAddressBookDataTests.m; sourceTree = "<group>"; };
+		A3F2696B18043D1C0033BAA1 /* NCPersonPickerVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NCPersonPickerVC.h; sourceTree = "<group>"; };
+		A3F2696C18043D1C0033BAA1 /* NCPersonPickerVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NCPersonPickerVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,12 +112,38 @@
 				A32098D817E6242500B2DE1C /* XCTest.framework in Frameworks */,
 				A32098DA17E6242500B2DE1C /* UIKit.framework in Frameworks */,
 				A32098D917E6242500B2DE1C /* Foundation.framework in Frameworks */,
+				BFE80E1AFCDE477B8E9165D1 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A319CB5F18006746007D87EB /* Contact Group */ = {
+			isa = PBXGroup;
+			children = (
+				A319CB5C18006736007D87EB /* NCGroupCollectionVC.h */,
+				A319CB5D18006736007D87EB /* NCGroupCollectionVC.m */,
+				A319CB60180118CD007D87EB /* NCGroupCollectionViewCell.h */,
+				A319CB61180118CD007D87EB /* NCGroupCollectionViewCell.m */,
+			);
+			name = "Contact Group";
+			sourceTree = "<group>";
+		};
+		A319CB631801488E007D87EB /* AddressBook Wrapper */ = {
+			isa = PBXGroup;
+			children = (
+				A319CB64180148A3007D87EB /* NCAddressBook.h */,
+				A319CB65180148A3007D87EB /* NCAddressBook.m */,
+				A319CB671801494D007D87EB /* NCAddressBookGroup.h */,
+				A319CB681801494D007D87EB /* NCAddressBookGroup.m */,
+				A319CB6A18014A0E007D87EB /* NCAddressBookMember.h */,
+				A319CB6B18014A0E007D87EB /* NCAddressBookMember.m */,
+			);
+			name = "AddressBook Wrapper";
+			path = AddressBook;
+			sourceTree = "<group>";
+		};
 		A32098AC17E6242500B2DE1C = {
 			isa = PBXGroup;
 			children = (
@@ -145,6 +189,7 @@
 		A32098DD17E6242500B2DE1C /* NestContactTests */ = {
 			isa = PBXGroup;
 			children = (
+				A3F269681803E8920033BAA1 /* NCAddressBookDataTests.m */,
 				A32098E317E6242500B2DE1C /* NestContactTests.m */,
 				A32098DE17E6242500B2DE1C /* Supporting Files */,
 			);
@@ -182,9 +227,12 @@
 		A33B4AF017F87B5700A5962B /* Display Layer */ = {
 			isa = PBXGroup;
 			children = (
-				A38181F617FFE86A002E5BF2 /* NCCreateNewPersonVC.h */,
-				A38181F717FFE86A002E5BF2 /* NCCreateNewPersonVC.m */,
 				A33B4B0917F87B7300A5962B /* Main.storyboard */,
+				A3F2696E18045B8F0033BAA1 /* Person Creation */,
+				A33B4AF817F87B5700A5962B /* NCViewController.h */,
+				A33B4AF917F87B5700A5962B /* NCViewController.m */,
+				A3F2696A18043CCE0033BAA1 /* X Person Picker VC */,
+				A319CB5F18006746007D87EB /* Contact Group */,
 				A33B4AF117F87B5700A5962B /* Collection */,
 			);
 			path = "Display Layer";
@@ -199,8 +247,6 @@
 				A33B4AF517F87B5700A5962B /* NCCollectionVC.m */,
 				A33B4AF617F87B5700A5962B /* NCSpringLayout.h */,
 				A33B4AF717F87B5700A5962B /* NCSpringLayout.m */,
-				A33B4AF817F87B5700A5962B /* NCViewController.h */,
-				A33B4AF917F87B5700A5962B /* NCViewController.m */,
 				A33F1C2417FD242100262ADA /* NCPersonDisplayCell.h */,
 				A33F1C2517FD242100262ADA /* NCPersonDisplayCell.m */,
 			);
@@ -224,13 +270,30 @@
 			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		A3F2696A18043CCE0033BAA1 /* X Person Picker VC */ = {
+			isa = PBXGroup;
+			children = (
+				A3F2696B18043D1C0033BAA1 /* NCPersonPickerVC.h */,
+				A3F2696C18043D1C0033BAA1 /* NCPersonPickerVC.m */,
+			);
+			name = "X Person Picker VC";
+			sourceTree = "<group>";
+		};
+		A3F2696E18045B8F0033BAA1 /* Person Creation */ = {
+			isa = PBXGroup;
+			children = (
+				A38181F617FFE86A002E5BF2 /* NCCreateNewPersonVC.h */,
+				A38181F717FFE86A002E5BF2 /* NCCreateNewPersonVC.m */,
+			);
+			name = "Person Creation";
+			sourceTree = "<group>";
+		};
 		A40F70B717F977F400C4E99F /* Data Module */ = {
 			isa = PBXGroup;
 			children = (
-				A40F70B817F977F400C4E99F /* NCMemoryStorage.h */,
-				A40F70B917F977F400C4E99F /* NCMemoryStorage.m */,
 				A33F1C2117FD20A900262ADA /* NCData.h */,
 				A33F1C2217FD20A900262ADA /* NCData.m */,
+				A319CB631801488E007D87EB /* AddressBook Wrapper */,
 			);
 			path = "Data Module";
 			sourceTree = "<group>";
@@ -261,9 +324,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A32098EA17E6242500B2DE1C /* Build configuration list for PBXNativeTarget "NestContactTests" */;
 			buildPhases = (
+				63149838E3234535A6D5120D /* Check Pods Manifest.lock */,
 				A32098D217E6242500B2DE1C /* Sources */,
 				A32098D317E6242500B2DE1C /* Frameworks */,
 				A32098D417E6242500B2DE1C /* Resources */,
+				D2AC88AB80074FF79A46D7CC /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -362,6 +427,36 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
+		63149838E3234535A6D5120D /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D2AC88AB80074FF79A46D7CC /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -369,14 +464,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A319CB5E18006736007D87EB /* NCGroupCollectionVC.m in Sources */,
+				A319CB6C18014A0E007D87EB /* NCAddressBookMember.m in Sources */,
+				A319CB66180148A3007D87EB /* NCAddressBook.m in Sources */,
 				A33B4B0217F87B5700A5962B /* NCCollectionHeaderView.m in Sources */,
 				A33B4B0517F87B5700A5962B /* NCViewController.m in Sources */,
+				A319CB62180118CD007D87EB /* NCGroupCollectionViewCell.m in Sources */,
 				A33F1C2617FD242100262ADA /* NCPersonDisplayCell.m in Sources */,
 				A33B4B0417F87B5700A5962B /* NCSpringLayout.m in Sources */,
 				A33B4B0317F87B5700A5962B /* NCCollectionVC.m in Sources */,
 				A38181F817FFE86A002E5BF2 /* NCCreateNewPersonVC.m in Sources */,
 				A33F1C2317FD20A900262ADA /* NCData.m in Sources */,
-				A40F70BA17F977F500C4E99F /* NCMemoryStorage.m in Sources */,
+				A319CB691801494D007D87EB /* NCAddressBookGroup.m in Sources */,
+				A3F2696D18043D1C0033BAA1 /* NCPersonPickerVC.m in Sources */,
 				A33B4B0717F87B5700A5962B /* main.m in Sources */,
 				A33B4B0617F87B5700A5962B /* NCAppDelegate.m in Sources */,
 			);
@@ -386,6 +486,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3F269691803E8920033BAA1 /* NCAddressBookDataTests.m in Sources */,
 				A32098E417E6242500B2DE1C /* NestContactTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -517,6 +618,7 @@
 		};
 		A32098EB17E6242500B2DE1C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68CE58E82BEA4D07A3E7265B /* Pods.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NestContact.app/NestContact";
@@ -526,7 +628,7 @@
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "NestContact/NestContact-Prefix.pch";
+				GCC_PREFIX_HEADER = "NestContact/Supporting Files/NestContact-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -540,6 +642,7 @@
 		};
 		A32098EC17E6242500B2DE1C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68CE58E82BEA4D07A3E7265B /* Pods.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NestContact.app/NestContact";
@@ -549,7 +652,7 @@
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "NestContact/NestContact-Prefix.pch";
+				GCC_PREFIX_HEADER = "NestContact/Supporting Files/NestContact-Prefix.pch";
 				INFOPLIST_FILE = "NestContactTests/NestContactTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";

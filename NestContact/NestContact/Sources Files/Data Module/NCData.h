@@ -6,14 +6,13 @@
 //  Copyright (c) 2013年 sunny. All rights reserved.
 //
 
-#import <RHAddressBook/AddressBook.h>
+#import "NCAddressBook.h"
 
 @interface NCData : NSObject
 
 // access
 + (instancetype)shared;
 
-- (void)requestLoadAddressBookWithUIHandler:(void(^)(BOOL granted))block;
-@property (nonatomic, readonly) RHAddressBook* addressBook;
+@property (nonatomic, strong) NCAddressBook* addressBook;
 
 @end

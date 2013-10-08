@@ -1,9 +1,12 @@
 # CocoaPods management of 3rd part libs
 # Created by Sunny
 
+link_with ['NestContact', 'NestContactTests']
+
 inhibit_all_warnings!
 pod 'RHAddressBook'
 pod 'BlocksKit'
-
-#pod 'SparkInspector'
 #pod 'Reveal-iOS-SDK'
+pod 'xlog'
+
+pod 'Expecta'
